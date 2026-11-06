@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"Kids Thinking Lab | Cán cân thăng bằng",description:"Toán tư duy cho bé 5–7 tuổi"};export default function Layout({children}:{children:React.ReactNode}){return <html lang="vi"><body>{children}</body></html>}
